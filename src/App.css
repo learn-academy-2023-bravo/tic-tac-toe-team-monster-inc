@@ -1,19 +1,13 @@
-.Cell {
+
+.square {
   border: 2px solid black;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 
-.board {
-  /* border: 2px solid black; */
-  height: 400px;
-  width: 400px;
- 
-
-}
-
-td{
-  border: 2px solid black;
-  text-align: center;
-  font-size: 5rem;
+.gameboard{
+display: flex;
+flex-wrap: wrap;
+width: 650px;
+margin: 0 auto;
 }

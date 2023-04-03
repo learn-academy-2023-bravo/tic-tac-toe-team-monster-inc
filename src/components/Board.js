@@ -1,28 +1,13 @@
 import React from "react"
 // import Cell from './components/Cell'
 
-const Board = () => {
+const Board = (gamePlay) => {
+    const click = () => {
+        gamePlay()
+    }
   return (
-    <div>
-        <table className="board">
-            <tr>
-                <td>?</td>
-                <td>?</td>
-                <td>?</td>
-            </tr>
-            <tr>
-                <td>?</td>
-                <td>?</td>
-                <td>?</td>
-            </tr>
-            <tr>
-                <td>?</td>
-                <td>?</td>
-                <td>?</td>
-            </tr>
+   <div className="square" onClick={click}></div>
     
-      </table>
-    </div>
   )
 }
 
