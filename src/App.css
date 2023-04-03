@@ -1,5 +1,19 @@
-.square {
+.Cell {
   border: 2px solid black;
   height: 100px;
   width: 100px;
+}
+
+.board {
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 400px;
+ 
+
+}
+
+td{
+  border: 2px solid black;
+  text-align: center;
+  font-size: 5rem;
 }
