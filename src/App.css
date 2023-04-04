@@ -1,19 +1,35 @@
-.Cell {
-  border: 2px solid black;
-  height: 100px;
-  width: 100px;
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 65px;
 }
 
 .board {
-  /* border: 2px solid black; */
-  height: 400px;
-  width: 400px;
- 
+  display: flex;
+  flex-wrap: wrap;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.squares {
+  border: 3px dashed black;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 10rem;
 
 }
 
-td{
-  border: 2px solid black;
-  text-align: center;
-  font-size: 5rem;
+.refreshButton{
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: beige;
+  
+}
+
+body{
+  background-image: url('./assests/background.png');
 }
